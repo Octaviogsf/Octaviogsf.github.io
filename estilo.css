@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap);
+
+* {
+    text-decoration: none;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+body {
+    background-color: rgba(0, 108, 255, 1);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.grandao {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    width: 499px;
+    margin: 0 auto;
+    margin-top: 100px;
+    flex-direction: column
+}
+
+.container img {
+    border-radius: 50%;
+}
+
+.button {
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 4px;
+    word-spacing: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    text-align: center;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px 0px black;
+}
+
+.teste {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.nome_do_elemento {
+    text-align: center;
+    margin-top: -25px;
+}
+
+.teste .button a{
+    color: white;
+}
+
+.pe p{
+    text-align: center;
+    height: 10px;
+}
